@@ -13,6 +13,8 @@ font-family: 'Merriweather', serif; */
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Banner-Image.png");
+    background-position: center;
+    background-size: cover;
     max-width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -96,6 +98,8 @@ font-family: 'Merriweather', serif; */
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Vectorrr.png");
+    background-position: center;
+    background-size: cover;
     max-width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -123,7 +127,7 @@ font-family: 'Merriweather', serif; */
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 166.667%;
     margin-bottom: 48px;
 }
 
@@ -201,5 +205,88 @@ font-family: 'Merriweather', serif; */
 
 /* coming soon styles */
 .coming-soon{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 463px;
+    margin: 120px auto;
 }
+
+.coming-soon-one{
+    width: 393px;
+    margin-right: 70px;
+}
+
+.coming-soon-one-heading{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.coming-soon-one h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.coming-soon-one-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.coming-soon-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 448px;
+    height: 448px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-right: 118px;
+}
+
+.coming-soon-two img{
+    padding: 49.08px;
+}
+
+.coming-soon-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 463px;
+    width: 276px;
+}
+
+.coming-soon-three h1{
+    width: 276px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    margin-bottom: 16px;
+    line-height: normal;
+}
+.coming-soon-three p{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 43px;
+    line-height: 160%;
+}
+
+.coming-soon-three img{
+    width: 140px;
+    height: 140px;
+}
+

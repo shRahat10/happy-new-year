@@ -294,6 +294,7 @@ font-family: 'Merriweather', serif; */
 
 .holiday-sale{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 1320px;
@@ -337,4 +338,12 @@ font-family: 'Merriweather', serif; */
     font-style: normal;
     font-weight: 500;
     line-height: 32px; /* 160% */
+}
+
+.bottom-div{
+    height: 662px;
+    margin-top: 64px;
+    background: url("./resources/Rectangle-2.png"), url("./resources/Rectangle-1.png");
+    background-repeat: no-repeat;
+    background-position: bottom, right top;
 }

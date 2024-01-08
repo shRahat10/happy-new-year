@@ -1,0 +1,44 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+
+/* banner-new-year design */
+.banner-new-year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/Banner-Image.png");
+    max-width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px auto;
+    margin-bottom: 0;
+}
+.banner-new-year-inside{
+    width: 90%;
+}
+.banner-new-year h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin: auto;
+}
+
+.banner-new-year .happy{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 16px 0 0 0;
+}
+
+.banner-new-year .celebration{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: auto;
+}

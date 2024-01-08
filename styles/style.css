@@ -527,6 +527,8 @@ footer{
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    border-top: rgba(255, 255, 255, 0.15) 1px solid;
+    border-bottom: rgba(255, 255, 255, 0.15) 1px solid;
 }
 
 .ftr-three{

@@ -1,7 +1,7 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
 
-/* banner-new-year design */
+/* banner-new-year styles */
 .banner-new-year {
     display: flex;
     justify-content: center;
@@ -41,4 +41,46 @@ font-family: 'Merriweather', serif; */
     font-size: 72px;
     font-weight: 900;
     margin: auto;
+}
+
+/* discount style */
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    padding: 0;
+}
+
+.sixty-off{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.our-holiday{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+    margin: 48px 0 0 0;
+}
+
+.all-categories{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0;
+    margin: 16px 0 0 0;
+}
+
+.new-year-photo{
+    padding: 0;
+    margin: 48px 0 0 0;
 }

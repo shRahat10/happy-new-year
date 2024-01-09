@@ -6,10 +6,6 @@ font-family: 'Merriweather', serif; */
     padding: 0;
 }
 
-button{
-  cursor: pointer;
-}
-
 /* banner-new-year styles */
 
 .banner-new-year {
@@ -562,6 +558,10 @@ footer{
     border-bottom: rgba(255, 255, 255, 0.15) 1px solid;
 }
 
+.ftr-two a:hover{
+    zoom: 120%;
+}
+
 .ftr-three{
     width: 1320px;
     display: flex;
@@ -580,3 +580,8 @@ footer{
     font-weight: 500;
     text-decoration: none;
 }
+
+button{
+    cursor: pointer;
+  }
+  

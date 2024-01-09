@@ -401,9 +401,34 @@ font-family: 'Merriweather', serif; */
     flex-wrap: wrap;
 }
 
-.card-images img{
+.card-images div{
+    border-radius: 16px;
     height: 450px;
     width: 424px;
+    background-position: center;
+}
+
+.imgone{
+    background: url("./resources/Rectangle-3.png");
+}
+.imgtwo{
+    background: url("./resources/Rectangle-4.png");
+}
+.imgthree{
+    background: url("./resources/Rectangle-5.png");
+}
+.imgfour{
+    background: url("./resources/Rectangle-6.png");
+}
+.imgfive{
+    background: url("./resources/Rectangle-7.png");
+}
+.imgsix{
+    background: url("./resources/Rectangle-8.png");
+}
+
+.card-images div:hover{
+    background-size: 120%;
 }
 
 /* subscribe styles */

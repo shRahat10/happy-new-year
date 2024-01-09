@@ -6,6 +6,10 @@ font-family: 'Merriweather', serif; */
     padding: 0;
 }
 
+button{
+  cursor: pointer;
+}
+
 /* banner-new-year styles */
 
 .banner-new-year {
@@ -406,6 +410,7 @@ font-family: 'Merriweather', serif; */
     height: 450px;
     width: 424px;
     background-position: center;
+    cursor: pointer;
 }
 
 .imgone{
@@ -566,4 +571,12 @@ footer{
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+}
+
+.ftr-three a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
 }
